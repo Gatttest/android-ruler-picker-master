@@ -18,18 +18,17 @@ import android.os.Bundle
 import android.provider.ContactsContract
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btn_dynamic_sample.setOnClickListener {
-            startActivity(Intent(this@MainActivity, ContactsContract.Profile::class.java))
+            startActivity(Intent(this@MainActivity, RulerDemoActivity::class.java))
         }
 
         btn_profile_sample.setOnClickListener {
-            startActivity(Intent(this@MainActivity, RulerDemoActivity::class.java))
+            startActivity(Intent(this@MainActivity, RulerDemoActivity2::class.java))
         }
     }
 }
