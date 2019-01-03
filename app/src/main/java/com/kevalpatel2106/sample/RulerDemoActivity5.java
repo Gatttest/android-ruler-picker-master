@@ -23,7 +23,7 @@ import android.widget.TextView;
 import com.kevalpatel2106.rulerpicker.RulerValuePicker;
 import com.kevalpatel2106.rulerpicker.RulerValuePickerListener;
 
-public class RulerDemoActivity3 extends AppCompatActivity {
+public class RulerDemoActivity5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
